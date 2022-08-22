@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+
+.bok-panell{
+    background-color: rgb(35, 35, 35);
+    width: 70px;
+    height: 795px;
+    transition: 1s;
+}
+
+.bok-panell:hover{
+    width: 200px;
+}
+
+.for-poloska{
+    width: 50px;
+    cursor: pointer;
+}
