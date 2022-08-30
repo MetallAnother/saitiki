@@ -1,0 +1,17 @@
+div{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lang{
+    display: flex;
+    justify-content: space-between;
+    width: 67px;
+    border: 1px solid black;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+
+.eng{
+    color: rgba(128, 128, 128, 0.369);
+}
