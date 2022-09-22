@@ -48,3 +48,11 @@
     border: 0px;
 }
 
+
+
+.lol{
+    border: 1px solid black;
+    width: min(100%, 20px);
+    margin-inline: auto;
+    padding-block: 10px 15px;
+}

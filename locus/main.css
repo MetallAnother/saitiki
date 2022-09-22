@@ -12,8 +12,8 @@ body{
 }
 
 .hed-menu{
-    margin-left: 166px;
-    margin-right: 142px;
+    margin-inline: auto;
+    width: min(100%, 1320px);
     display: flex;
     justify-content: space-between;
 }
@@ -88,7 +88,7 @@ body{
 
 .Zagolovok{
     font-family: 'Poppins', sans-serif;
-    width: 670px;
+    width: min(100%, 900px);
     height: 205px;
     font-size: 63px;
 }
