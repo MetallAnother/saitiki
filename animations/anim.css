@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 1000px;
+}
+.div{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+}
+
+.prom1 {
+    transform: translate(0,147px);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.prom1._active{
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+
+.prom2 {
+}

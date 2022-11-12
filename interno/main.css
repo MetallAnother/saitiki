@@ -1,0 +1,278 @@
+/* It's a CSS code. */
+
+body{
+    margin: 0%;
+}
+.nav-bar {
+    width: 1280px;
+    margin-inline: auto;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-butons {
+    width: min(100%, 570px);
+    display: flex;
+    align-items: center
+}
+a{
+    font-family: 'Jost', sans-serif;
+}
+.button{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    font-style: normal;
+    margin-inline: 16px;
+    background: white;
+    border: none;
+}
+.button:hover{
+    color: rgba(0, 0, 0, 0.568);
+    transform: scale(1.1);
+}
+.button:active{
+    color: #CDA274; 
+    background-attachment: fixed;
+}
+.First{
+    background:url(./png/IMAGE.svg) no-repeat;
+    background-size: 100%;
+    height: 1000px;
+}
+.conteiner-1{
+    margin-inline: auto;
+    width: min(100%, 1280px);
+    height: 831px;
+}
+.complect-1{
+    width: min(100%, 620px);
+    padding-top: 195px;
+}
+.lets-create {
+    font-size: 80px;
+    margin: 0%;
+}
+.the-world {
+    font-family: 'Jost', sans-serif;
+    width: min(100%, 577px);
+    font-size: 22px;
+}
+.but-1 {
+    cursor: pointer;
+    padding-inline: 20px;
+    margin-top: 35px;
+    box-sizing: border-box;
+    font-size: 18px;
+    width: 207px;
+    height: 71px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: #292F36;
+    display: flex;
+    align-items: center;
+
+}
+
+
+ .but-1:active  {
+    color:#292F36;
+    background-color: aliceblue;
+}  
+
+.arrow2{
+    padding-left: 40px;
+    height: 36px;
+}
+
+.but-1:active>.arrow2{
+    animation-name: pres;
+    animation-duration: 2s;
+}
+
+.but-1::before>.arrow2{
+    animation-name: uplift;
+    animation-duration: 2s;
+}
+
+@keyframes pres {
+    0%   {    padding-left: 40px;}
+    25%  {    padding-left: 50px;}
+  }
+
+@keyframes uplift {
+    0%   {    padding-left: 50px;}
+    25%  {    padding-left: 40px;}
+  }
+
+/* second */
+
+
+.div-conteiner-2 {
+    margin-top: 175px;
+    width: min(100%, 1280px);
+    margin-inline: auto;
+}
+
+.div-texts {
+    display: flex;
+    margin: 0%;
+}
+.div-text {
+    width: min(100%, 400px);
+    height: 295px;
+    margin-inline: auto;
+}
+.zag {
+    width: min(100%, 180px);
+    margin-inline: auto;
+    font-size: 25px;
+}
+.par {
+    text-align: center;
+    width: min(100%, 307px);
+    margin-inline: auto;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+}
+.but-2 {
+    cursor: pointer;
+    margin: 0px;
+    margin-inline: auto;
+    width: min(100%, 115px);
+    font-size: 18px;
+}
+
+
+
+/* third */
+
+
+.conteiner-3{
+    margin-top: 175px;
+    width: min(100%, 1280px);
+    margin-inline: auto;
+}
+.projeck {
+    display: flex;
+}
+.complect-2 {
+    width: min(100%, 502px);
+    margin-inline: auto;
+}
+.we-trakle {
+    font-size: 50px;
+}
+.the-worlds {
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+}
+.phone {
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    font-size: 24px;
+}
+.ob-nom{
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.but-3{
+    width: min(100%, 263px);
+    cursor: pointer;
+    padding-inline: 20px;
+    margin-top: 35px;
+    font-size: 18px;
+    width: 207px;
+    height: 71px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: #292F36;
+    display: flex;
+    align-items: center
+}
+
+
+/* fourt */
+
+
+.container-4 {
+    width: min(100%, 1280px);
+    margin-top: 175px;
+    margin-inline: auto;
+}
+
+.reviews {
+    width: min(100%, 1280px);
+    height: 675px;
+    margin-inline: auto;
+    background: #F4F0EC;
+    border-radius: 70px;
+}
+.what-the-pipl {
+    width: min(100%, 479px);
+    padding-top: 103px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 45px;
+    text-align: center;
+    margin-inline: auto;
+}
+.cards{
+    display: flex;
+    justify-content:space-around;
+}
+.card {
+    width: min(100%, 356px);
+    height: 287px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.complect-3{
+    margin-top: 49px;
+    margin-inline: auto;
+    display: flex;
+    width: min(100%, 289px);
+    height: 77px;
+}
+.icon {
+    width: min(100%, 77px);
+}
+.name {
+    font-size: 25px;
+}
+.lives {
+    font-size: 18px;
+}
+.about {
+    margin-left: 20px;
+    line-height: 15px;
+}
+
+.thinks{
+    font-family: 'Jost', sans-serif;
+    width: min(100%, 244px);
+    margin-inline: auto;
+    font-size: 20px;
+}
+
+
+/* fifth */
+
+.container-5 {
+    width: min(100%, 1280px);
+    margin-top: 175px;
+    margin-inline: auto;
+}
+.brands {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* sixth */
+

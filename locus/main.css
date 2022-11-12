@@ -81,6 +81,7 @@ body{
 }
 
 .Get-the-inspirationof{
+    width: min(100%, 1320px);
     margin-top: 100px;
     display: flex;
     margin-left: 166px;
@@ -90,7 +91,7 @@ body{
     font-family: 'Poppins', sans-serif;
     width: min(100%, 900px);
     height: 205px;
-    font-size: 63px;
+    font-size: 59px;
 }
 
 .rectangle9{
