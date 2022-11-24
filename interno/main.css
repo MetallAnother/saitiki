@@ -4,13 +4,20 @@ body{
     margin: 0%;
 }
 .nav-bar {
-    width: 1280px;
-    margin-inline: auto;
+    background-color: white;
     padding-top: 20px ;
     padding-bottom: 20px ;
     display: flex;
-    justify-content: space-between;
 }
+
+.cont-navb{
+    justify-content: space-between;
+    display: flex;
+    margin-inline: auto;
+    width: 1280px;
+}
+
+
 .nav-butons {
     width: min(100%, 570px);
     display: flex;
@@ -40,6 +47,7 @@ a{
     background:url(./png/IMAGE.svg) no-repeat;
     background-size: 100%;
     height: 1000px;
+    float:inline-start;
 }
 .conteiner-1{
     margin-inline: auto;
@@ -73,14 +81,20 @@ a{
     background-color: #292F36;
     display: flex;
     align-items: center;
-
+    animation-name: but1;
+    animation-duration: 0.8s;
+    position: relative;
 }
 
 
- .but-1:active  {
-    color:#292F36;
-    background-color: aliceblue;
-}  
+.but-1:active  {
+    box-shadow: 0px 0px 10px -1px #000000;}  
+
+@keyframes but1{
+    0%   {   opacity: 0.1; left: -40px;}
+    100%   {  opacity: 1;  left: 0px;}
+    /* 100%  {    left: 0px;} */
+}
 
 .arrow2{
     padding-left: 40px;
@@ -88,30 +102,23 @@ a{
 }
 
 .but-1:active>.arrow2{
+    position: relative;
     animation-name: pres;
-    animation-duration: 2s;
+    animation-duration: 0.3s;
 }
 
-.but-1::before>.arrow2{
-    animation-name: uplift;
-    animation-duration: 2s;
-}
 
 @keyframes pres {
-    0%   {    padding-left: 40px;}
-    25%  {    padding-left: 50px;}
-  }
-
-@keyframes uplift {
-    0%   {    padding-left: 50px;}
-    25%  {    padding-left: 40px;}
+    0%   {   left: 0px;}
+    50%   {   left: 10px;}
+    100%  {    left: 0px;}
   }
 
 /* second */
 
 
 .div-conteiner-2 {
-    margin-top: 175px;
+    margin-top: 105px;
     width: min(100%, 1280px);
     margin-inline: auto;
 }
@@ -121,10 +128,17 @@ a{
     margin: 0%;
 }
 .div-text {
+    opacity: 0;
     width: min(100%, 400px);
     height: 295px;
     margin-inline: auto;
+    transition: 0.3s;
 }
+
+.div-text.element-show {
+    opacity: 1;
+  }
+
 .zag {
     width: min(100%, 180px);
     margin-inline: auto;
@@ -151,7 +165,7 @@ a{
 
 
 .conteiner-3{
-    margin-top: 175px;
+    margin-top: 105px;
     width: min(100%, 1280px);
     margin-inline: auto;
 }
@@ -202,7 +216,7 @@ a{
 
 .container-4 {
     width: min(100%, 1280px);
-    margin-top: 175px;
+    margin-top: 145px;
     margin-inline: auto;
 }
 
@@ -265,7 +279,7 @@ a{
 
 .container-5 {
     width: min(100%, 1280px);
-    margin-top: 175px;
+    margin-top: 145px;
     margin-inline: auto;
 }
 .brands {
