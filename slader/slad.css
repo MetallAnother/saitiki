@@ -1,0 +1,35 @@
+.div1 {
+    display: flex;
+}
+.slide {
+    position: relative;
+    width:320px;
+    height: 320px;
+    margin-inline: auto;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.img {
+    overflow: hidden;
+    transition: all ease 1s;
+    width: 300px;
+    padding: 10px;
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+}
+
+.poloska{
+    display: flex;
+    width: 1280px;
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
+
+/* .sl-lin{
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+} */

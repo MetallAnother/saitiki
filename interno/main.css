@@ -137,7 +137,14 @@ a{
 
 .div-text.element-show {
     opacity: 1;
+    animation-name: text;
+    animation-duration: .7s;
   }
+
+
+@keyframes text {
+    0% { opacity: 0;}
+}
 
 .zag {
     width: min(100%, 180px);
@@ -163,6 +170,25 @@ a{
 
 /* third */
 
+.img1{
+    opacity: 0;
+    position: relative;
+    transition: 1s;
+
+}
+
+.img1.element-img{
+    opacity: 1;
+    animation-name: img1;
+    animation-duration: 1s;
+
+}
+
+@keyframes img1 {
+    0%   {  left: 170px;}
+    100%   {   left: 0px;}
+  }
+
 
 .conteiner-3{
     margin-top: 105px;
@@ -175,6 +201,12 @@ a{
 .complect-2 {
     width: min(100%, 502px);
     margin-inline: auto;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.complect-2.element-comp2{
+    opacity: 1;
 }
 .we-trakle {
     font-size: 50px;
@@ -244,6 +276,10 @@ a{
     height: 287px;
     border-radius: 30px;
     background-color: white;
+}
+
+.card:hover{
+    transform: scale(1.04);
 }
 
 .complect-3{
